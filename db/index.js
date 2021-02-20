@@ -10,7 +10,7 @@ const db = new Sequelize(
         logging: false,
         port: 3306,
         define: {
-            timestamps: false
+            timestamps: true
         }
     }
 );
