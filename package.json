@@ -1,0 +1,25 @@
+{
+  "name": "discordreminder",
+  "version": "0.0.1",
+  "description": "An Open Source Discord Bot to remind you after a certain time. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheLDB/discordRemindBot.git"
+  },
+  "author": "Landon Boles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheLDB/discordRemindBot/issues"
+  },
+  "homepage": "https://github.com/TheLDB/discordRemindBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
